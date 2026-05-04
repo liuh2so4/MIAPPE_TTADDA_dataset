@@ -13,6 +13,8 @@ pip install omegaconf
 pip install pandas
 pip install geopandas
 pip install openpyxl
+pip install tqdm
+pip install requests
 ```
 
 ## Downloading dataset Usage
@@ -20,6 +22,9 @@ The data can be downloaded using the main.py, we only download the MIAPPE and th
 **IMPORTANT automatically downloading is currently disabled. This will be enabled after acceptance data in brief paper. The data can only be downloaded with private links. To run main.py download the "MIAPPE_Minimal_Spreadsheet_Template_TTADDAv4.xlsx" and copy to current folder**
 
 ```
+mkdir -p data/TTADDA_UAV_01
+wget -O data/TTADDA_UAV_01/TTADDA_metadata.zip \
+"link"
 python3 main.py
 ```
 For more examples have a look at:
