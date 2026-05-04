@@ -1,7 +1,4 @@
 *.pyc
-.vscode*
 .venv/
-config_real.yaml
-MIAPPE_Minimal_Spreadsheet_Template_TTADDA*
 
 data/*
